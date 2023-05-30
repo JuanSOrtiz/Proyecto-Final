@@ -1,0 +1,128 @@
+:root{
+
+
+    --moradoOscuro:#1D1128;
+    --moradoClaro:#6D72C3;
+    --moradoMedio:#5941A9;
+    --gris:#514F59;
+    --grisClaro:#D9DCD0;
+}
+
+*{
+        box-sizing: border-box;
+        text-decoration: none;
+        border:none;
+        outline: none;
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: 1rem ;
+    color:var(--moradoOscuro);
+    
+
+}
+a{
+    text-decoration: none;
+    color:var(--moradoOscuro);
+}
+.header{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0; 
+    background-color: var(--moradoMedio);
+}
+
+.mainNav{
+    display: inline-block;
+    height: 100%;
+    width: 80%; 
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    
+}
+
+.logo{
+    display: inline;
+    width: 20%;
+    height: 90%;
+    padding-left: 6vw;
+    padding-top: 0.6vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.items{
+    padding-top: 23px;
+    list-style: none;
+}
+li{
+    font-size: 35px;
+    display: inline;
+    margin-left: 40px;
+    margin-right: 100px;
+    
+}
+.items__primero{
+    margin-left: 70px;
+    margin-right: 190px;
+}
+.items__otros{
+    margin-right: 190px;
+}
+.items__ultimo{
+    margin-right: 20px;
+}
+
+.content{
+    height: 88vh;
+    width: 100vw;
+    background-color: var(--grisClaro);
+}
+
+.content__tools{
+    display: inline-block;
+    /* border:0.3rem solid var(--moradoMedio); */
+    height: 15vh;
+    width: 100vw;
+    margin-top: 8vh;
+}
+
+.content-tools__button{
+    height: 100%;
+    width: 15vw;
+    margin-left: 15vw;
+    border-radius: 30%;
+    background-color: var(--moradoClaro);
+    font-size: 2rem;
+    color: var(--moradoOscuro);
+}
+
+.content__tabla-dex{
+    height: 53vh;
+    width:70vw;
+    margin-top: 8vh;
+    margin-left: 15vw;
+    display: inline-flex;
+    border-radius: 8%;
+    border:0.3rem solid var(--moradoMedio);
+}

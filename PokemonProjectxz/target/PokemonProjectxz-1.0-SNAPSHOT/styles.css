@@ -1,0 +1,168 @@
+:root{
+
+
+    --moradoOscuro:#1D1128;
+    --moradoClaro:#6D72C3;
+    --moradoMedio:#5941A9;
+    --gris:#514F59;
+    --grisClaro:#D9DCD0;
+}
+
+*{
+        box-sizing: border-box;
+        text-decoration: none;
+        border:none;
+        outline: none;
+        scroll-behavior: smooth;
+        padding: 0;
+        margin: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: 1rem ;
+    color:var(--moradoOscuro);
+    
+
+}
+
+a{
+    text-decoration: none;
+    color:var(--moradoOscuro);
+}
+.header{
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding: 0; 
+    background-color: var(--moradoMedio);
+}
+
+.mainNav{
+    display: inline-block;
+    height: 100%;
+    width: 80%; 
+    top: 0;
+    left: 0;
+    margin: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    
+}
+
+.logo{
+    display: inline;
+    width: 20%;
+    height: 90%;
+    padding-left: 6vw;
+    padding-top: 0.6vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.items{
+    padding-top: 23px;
+    list-style: none;
+    
+}
+li{
+    font-size: 35px;
+    display: inline;
+    margin-left: 40px;
+    margin-right: 100px;
+    height: 100%;
+    
+    
+}
+.items__primero{
+    margin-left: 70px;
+    margin-right: 190px;
+       
+}
+.items__otros{
+    margin-right: 190px;
+}
+.items__ultimo{
+    margin-right: 20px;
+}
+
+
+.content{
+    height: 88vh;
+    width: 100vw;
+    background-color: var(--grisClaro);
+    
+}
+
+.content__vgc{
+    border:0.3rem solid var(--moradoMedio);
+    display: inline-block;
+    width: 40vw;
+    margin-left: 7vw;
+    margin-top: 5vh;
+    border-radius: 8%;
+    
+}
+
+.content-vgc__img{
+    margin-left: 10vw;
+    width: 20rem;
+    height: 20rem;
+}
+
+.content__smogon{
+    border:0.3rem solid var(--moradoMedio);
+    display: inline-block;
+    width: 40vw;
+    margin-left: 3vw;
+    border-radius: 8%;
+}
+
+
+.content-smogon__img{
+    margin-left: 10vw;
+    width: 20rem;
+    height: 20rem;
+}
+
+
+.content__pokedex{
+    border:0.3rem solid var(--moradoMedio);
+    display: inline-flex;
+    margin-top: 5vh;
+    margin-left: 7vw;
+    width: 83vw;
+    height: 40vh;
+    border-radius: 8%;
+}
+.content-pokedex__img{
+    display: inline-block;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    opacity: 1;
+    width: 40rem;
+    height: 20rem;
+}
+
+.content-pokedex__text{
+    display: inline-flex;
+    box-sizing: border-box;
+    font-family:"Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 4rem;
+    justify-content: start;
+    align-items: center;
+    margin-left: 15vw;
+    
+}
